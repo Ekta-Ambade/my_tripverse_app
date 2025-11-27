@@ -1,0 +1,7 @@
+streamlit
+requests
+google-generativeai
+tavily-python
+langchain
+langchain-google-genai
+Pillow
