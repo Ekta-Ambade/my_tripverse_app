@@ -1,9 +1,10 @@
 streamlit
-requests==2.31.0
-google-generativeai==0.8.5
+requests
+google-generativeai
 tavily-python
 langchain-google-genai
-Pillow==10.0.0
-langchain==1.1.0
+Pillow
+langchain
+
 
 
