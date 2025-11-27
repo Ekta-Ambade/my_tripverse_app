@@ -4,5 +4,6 @@ google-generativeai==0.8.5
 tavily-python
 langchain-google-genai
 Pillow==10.0.0
-langchain==1.0.8
+langchain==1.1.0
+
 
