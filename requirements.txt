@@ -4,8 +4,9 @@ google-generativeai
 tavily-python
 langchain-google-genai
 Pillow
-langchain==1.1.0
-pydantic==2.41.5
+langchain
+pydantic
+
 
 
 
