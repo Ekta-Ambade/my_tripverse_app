@@ -6,6 +6,8 @@ langchain-google-genai
 Pillow
 langchain
 pydantic
+langchain-core
+
 
 
 
