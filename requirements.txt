@@ -5,3 +5,4 @@ tavily-python
 langchain
 langchain-google-genai
 Pillow
+langchain==1.0.8
