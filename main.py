@@ -4,7 +4,6 @@ from tavily import TavilyClient
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.tools import tool
 from langchain.agents import create_agent
-from PIL import Image
 
 # -------------------------
 # STREAMLIT SETUP
@@ -309,8 +308,5 @@ Day-Wise Plan Format:
         result_metrics=result["messages"][-1].content
         st.success("🎉 Your AI Travel Plan is Ready!")
         st.write(result_metrics)
-
-
-
 
 
