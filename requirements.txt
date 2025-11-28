@@ -1,13 +1,15 @@
 streamlit
 requests
 google-generativeai
-tavily-python
-langchain-google-genai>=3.2.0
-Pillow
-langchain>=1.1.0
-langgraph>=1.0.3
-langchain-core>=1.1.0
-langchain-community>=0.4.1
+tavily-python>=0.3.0
+langchain-google-genai>=0.1.0
+pillow
+langchain>=1.0.5
+langgraph>=0.2.30
+langchain-core>=1.0.5
+langchain-community>=1.0.5
+pydantic>=2.7.0
+
 
 
 
