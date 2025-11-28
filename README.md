@@ -23,10 +23,6 @@ It generates:
 - Tavily-powered web search  
 - Emoji-rich human-friendly responses  
 
-### 🖼️ Image Q&A
-- Upload any image  
-- Ask questions about it  
-- Powered by **Gemini 2.0 Flash Vision**  
 
 ---
 
