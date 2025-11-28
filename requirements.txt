@@ -2,9 +2,10 @@ streamlit
 requests
 google-generativeai
 tavily-python
-langchain-google-genai
+langchain-google-genai>=3.2.0
 Pillow
 langchain>=1.0.0
+
 
 
 
