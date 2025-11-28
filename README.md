@@ -103,15 +103,15 @@ LangChain’s create_agent() takes all tools and uses Gemini to craft a detailed
 1. Install Dependencies
 
 Create a requirements.txt with:
-streamlit
-requests
-tavily-python
-langchain-google-genai
-pillow
-langchain
-langchain-core
-langchain-community
-google-genai
+streamlit |
+requests  |
+tavily-python |
+langchain-google-genai |
+pillow |
+langchain |
+langchain-core |
+langchain-community |
+google-genai |
 
 Then run:
 pip install -r requirements.txt
