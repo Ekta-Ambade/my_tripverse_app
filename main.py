@@ -310,27 +310,5 @@ Day-Wise Plan Format:
         result_metrics=result["messages"][-1].content
         st.success("🎉 Your AI Travel Plan is Ready!")
         st.write(result_metrics)
-st.markdown("---")
 
-st.subheader("🖼️ Image Q&A")
-genai.configure(api_key=gemini_key)
-uploaded_img = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
-user_q = st.text_input("Ask a question about the image:")
 
-if uploaded_img and user_q:
-    # Display image
-    img = Image.open(uploaded_img)
-    st.image(img, caption="Uploaded Image", use_container_width=True)
-
-    with st.spinner("Analyzing..."):
-        try:
-            model = genai.GenerativeModel("gemini-2.0-flash")
-
-            # Send text + image to model
-            resp = model.generate_content([user_q, img])
-
-            st.write("### 🧠 Answer:")
-            st.write(resp.text)
-
-        except Exception as e:
-            st.error(f"Error: {e}")
