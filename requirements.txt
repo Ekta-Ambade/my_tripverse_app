@@ -1,14 +1,12 @@
 streamlit
 requests
-
 tavily-python
 langchain-google-genai
-pillow
 langchain
-
 langchain-core
 langchain-community
 google-genai
+
 
 
 
