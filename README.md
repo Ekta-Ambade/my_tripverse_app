@@ -45,14 +45,12 @@ Day-wise sightseeing plan
 
 Safety info (nearby hospitals)
 
-### 🛠 Tech Stack
-Category	       Technology
-UI Framework	   Streamlit
-AI Model	       Gemini 2.0 Flash (Google)
-Tools Framework	   LangChain
-Search API	       Tavily Search API
-Weather API	       OpenWeatherMap API
-Backend	Python     3.13.7
+UI Framework- Streamlit
+AI Model-Gemini 2.0 Flash (Google)
+Tools Framework-LangChain
+Search API-Tavily Search API
+Weather API-OpenWeatherMap API
+Backend	Python-3.13.7
 
 ### 🔐 API Keys Required
 
