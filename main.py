@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+import google.generativeai as genai
 from tavily import TavilyClient
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.tools import tool
@@ -309,6 +310,7 @@ Day-Wise Plan Format:
         result_metrics=result["messages"][-1].content
         st.success("🎉 Your AI Travel Plan is Ready!")
         st.write(result_metrics)
+
 
 
 
